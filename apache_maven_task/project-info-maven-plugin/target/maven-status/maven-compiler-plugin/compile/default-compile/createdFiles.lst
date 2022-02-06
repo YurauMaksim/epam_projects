@@ -1,0 +1,10 @@
+project\info\ProjectInfoWriter.class
+report\mail\sender\MailSenderMojo.class
+project\info\ProjectInfoMojo.class
+report\mail\sender\MailSender$1.class
+exceptions\ReportNotFoundException.class
+console\report\writer\ConsoleWriterMojo.class
+report\mail\sender\MailSender.class
+console\report\writer\ProjectInfoReader.class
+constants\Constants.class
+info\ProjectInfo.class
