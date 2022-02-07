@@ -13,6 +13,10 @@
     <artifactId>project-info-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
 
+    <properties>
+        <junit.version>4.13</junit.version>
+    </properties>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
         <dependency>
@@ -33,7 +37,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
