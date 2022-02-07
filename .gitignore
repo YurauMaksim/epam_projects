@@ -1,7 +1,5 @@
-#ignore for maven
-
 *.idea/
 *out/
 *.iml
 *.class
-*.target/
+*target/
