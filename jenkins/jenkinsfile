@@ -1,0 +1,22 @@
+pipeline{
+    agent any;
+
+    tools{
+        maven "Maven";
+        jdk "JDK11";
+    }
+
+    stages {
+        stage("Cloning"){
+            steps {
+                url: 'https://git.epam.com/maksim_yurau/jenkins-demo',
+                branch: 'develop'
+            }
+        }
+        stage("Building"){
+            steps{
+                bat "mvn clean install"
+            }
+        }
+    }
+}
