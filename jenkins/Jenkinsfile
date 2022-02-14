@@ -9,7 +9,7 @@ pipeline{
     stages {
         stage("Cloning"){
             steps {
-                url: 'https://git.epam.com/maksim_yurau/jenkins-demo',
+                url: 'https://git.epam.com/maksim_yurau/jenkins-demo.git',
                 branch: 'develop'
             }
         }
