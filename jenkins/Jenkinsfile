@@ -9,8 +9,9 @@ pipeline{
     stages {
         stage("Cloning"){
             steps {
-                url: 'https://git.epam.com/maksim_yurau/jenkins-demo.git',
-                branch: 'develop'
+                url: https://git.epam.com/maksim_yurau/jenkins-demo ,
+                branch: 'develop',
+                credentialId: '00d0464e-d8fc-4a84-9cf4-174f2c99da3a'
             }
         }
         stage("Building"){
