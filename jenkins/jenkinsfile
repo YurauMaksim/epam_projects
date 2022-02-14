@@ -1,4 +1,7 @@
 pipeline{
+    dir('jenkins') {
+        checkout scm
+    }
     agent any;
 
     tools{
