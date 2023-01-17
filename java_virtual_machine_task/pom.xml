@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>by.epam.gomel.training</groupId>
+    <artifactId>java_virtual_machine_task</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+
+</project>
+        <!--Тема: Java Virtual Machine
+
+    Задание #1:
+    - Создать приложение, единственный функционал которого приводит к StackOverFlowError. Изучить stack-trace и результат работы Debugger.
+
+    Задание #2:
+    - Создать приложение, приводящее к OutOfMemoryError: Java Heap Space.
+    - Установить и подключить VisualVM, исследовать процесс работы приложения (закладки Monitor, Sampler).
+    - Выполнить Heap Dump, изучить результаты.
+    - Изменить размер Heap с помощью соответствующего флага, изучить поведение приложения через VisualVM, сравнить количество создаваемых объектов в момент OutOfMemoryError при различных размерах Heap.
+    - Произвести запуск приложения с разными GC (Serial, Parallel, CMS, G1) при одинаковом размере Heap. Изучить закладку Monitor, замерить время жизни приложения (поле Uptime), сделать снимок экрана для Monitor для каждого GC при OutOfMemoryError. Снимки собрать в папку snapshots.
+
+    Задание #3:
+    - Создать приложение, бесконечно наполняющее ArrayList строкой, созданной через конструктор с любым константным значением. Исследовать поведение в VisualVM.
+    - Запустить приложение с включенной дедупликацией строк. Иссследовать поведение в VisualVM.
+    - Произвести ручную интернизацию строк при добавлении в ArrayList. Исследовать поведение в VisualVM.
+    - Проследить, приводит ли каждый из способов к OutOfMemoryError. Посмотреть количество создаваемых String-объектов для пукнтов 2 и 3 на одинаковом временном интервале.
+
+    Примечание:
+    Все задания должны являться модулями общего Maven-приложения для задания.
+    Использовать Java 8 или выше.
+
+    Дедлайн: 2/28/2022 23:59:59
+
+
+    -->

@@ -1,1 +1,1 @@
-by.epam.gomel.training.yurau;apache_maven_task;1.0-SNAPSHOT;пн, 7 февр. 2022 16:34:47
+by.epam.gomel.training.yurau;apache_maven_task;1.0-SNAPSHOT;вс, 20 февр. 2022 19:30:00
